@@ -92,9 +92,9 @@ footer {
 .profile-photo {
   width: 130px;
   height: 130px;
-  border-radius: 50%; /* Робить фото ідеально круглим */
-  object-fit: cover;  /* Щоб фото не сплющувалося */
-  border: 3px solid #00ff00; /* Колір рамки. Заміни на #e5e7eb, якщо вибрав світлу тему! */
+  border-radius: 70%; 
+  object-fit: cover; 
+  border: 3px solid #00ff00;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
