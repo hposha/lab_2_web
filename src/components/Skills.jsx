@@ -24,8 +24,8 @@ function Skills() {
       title: "Мови", 
       icon: <Languages size={16} />,
       items: [
-        { n: "Українська", s: "10/10" }, 
-        { n: "English", s: "8/10" }
+        { n: "Українська", s: "C2" }, 
+        { n: "English", s: "B1" }
       ] 
     },
     { 
