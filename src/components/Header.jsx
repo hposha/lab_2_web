@@ -11,7 +11,7 @@ function Header() {
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
           Andrii Andrievsky
         </h1>
-        <p className="mt-2 text-xl text-slate-300 font-medium">Студент / ІТ-Спеціаліст(Cybersecurity)</p>
+        <p className="mt-2 text-xl text-slate-300 font-medium">Студент / ІТ-Intern(Cybersecurity)</p>
         
         {/* Контакти з іконками */}
         <div className="mt-5 flex flex-wrap justify-center md:justify-start gap-5 text-sm text-slate-400 font-mono bg-slate-900/50 p-3 rounded-lg border border-slate-700/50 inline-flex">
