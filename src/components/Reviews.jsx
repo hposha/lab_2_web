@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 const Reviews = () => {
   const [comments, setComments] = useState([]);
   
-  // ТУТ ВАЖЛИВО: замініть 1 на ваш номер варіанту в журналі!
   const variant = 1; 
 
   useEffect(() => {
@@ -26,18 +25,14 @@ const Reviews = () => {
         {comments.map(comment => (
           <div 
             key={comment.id} 
-            // Замінено bg-slate-800 на bg-slate-500/5 (дуже легка прозорість) і border на 500/20
             className="bg-slate-500/5 p-6 rounded-xl shadow-md border border-slate-500/20 hover:border-cyan-500 transition-colors duration-300"
           >
-            {/* Замінено text-blue-400 на text-cyan-600 для кращого контрасту */}
             <h3 className="font-semibold text-lg text-cyan-600 mb-1 truncate" title={comment.name}>
               {comment.name}
             </h3>
             
-            {/* Прибрано text-slate-400, додано opacity-60 */}
             <p className="text-xs mb-4 opacity-60 font-mono">{comment.email}</p>
             
-            {/* Прибрано text-slate-300, додано opacity-80 */}
             <p className="text-sm leading-relaxed opacity-80">
               {comment.body}
             </p>

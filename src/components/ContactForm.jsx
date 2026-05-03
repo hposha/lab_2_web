@@ -34,7 +34,6 @@ const ContactForm = ({ theme }) => {
       
       <div className={`border rounded-2xl w-full max-w-md p-6 relative animate-in fade-in zoom-in duration-300 ${modalBg}`}>
         
-        {/* Кнопка закриття */}
         <button 
           onClick={() => setIsOpen(false)}
           className={`absolute top-4 right-4 transition-colors ${isDark ? 'text-slate-400 hover:text-white' : 'text-slate-400 hover:text-slate-800'}`}
@@ -49,8 +48,7 @@ const ContactForm = ({ theme }) => {
           Залиште свої контакти, і я обов'язково вам відповім!
         </p>
 
-        {/* ФОРМА: Не забудьте вставити свій ендпоінт Formspree! */}
-        <form action="https://formspree.io/f/ВАШ_ЕНДПОЙНТ" method="POST" className="space-y-4">
+        <form action="https://formspree.io/f/xpqygdek" method="POST" className="space-y-4">
           
           <div>
             <input 
